@@ -23,12 +23,15 @@ mod "puppetlabs/java",        '1.6.0'
 #  :git => 'https://github.com/rsbebli/rsbebli-ntp.git',
 #  :ref => 'master'
  
-#mod  'role', 
-#  :git =>  'https://github.com/rsbebli/rsbebli-role.git',
-#  :ref => 'master'
+mod  'role', 
+   :git =>  'https://github.com/rsbebli/rsbebli-role.git',
+   :ref => 'master'
 
 
-#mod 'profile',
-#  :git => 'https://github.com/rsbebli/rsbebli-profile.git',
-#  :ref => 'master'
- 
+mod 'profile',
+   :git => 'https://github.com/rsbebli/rsbebli-profile.git',
+   :ref => 'master'
+
+mod 'nginx',
+   :git =>  'https://github.com/rsbebli/rsbebli-role.git',
+   :ref =>  'master'
